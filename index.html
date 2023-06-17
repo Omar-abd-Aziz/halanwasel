@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="KoxFDST3d6i1bDnCHChJAry6xM0lyiGrrxymKitlGas" />
+    <title>
+        موئسسة حالا واصل 
+    </title>
+    <meta name="description" content="هي شركة تختص في تقديم خدمات تنظيف وصيانة الأفران المنزلية والصناعية. يمكن للشركة تنظيف الأفران من الداخل والخارج وإزالة الأوساخ والشحوم والروائح الكريهة التي تتراكم من الاستخدام اليومي. كما يمكن للشركة أيضًا إجراء الصيانة اللازمة للأفران وإصلاح أي مشاكل تواجهها، مثل استبدال العناصر السخانة أو تصليح الأجزاء المكسورة. تهدف هذه الشركة إلى توفير خدمات عالية الجودة للعملاء وضمان أن تعمل الأفران بكفاءة وسلامة تامة." />
+
+    <!-- start link css -->
+    <link rel="stylesheet" href="./Main-Page-Folder/style.css">
+    <link rel="stylesheet" href="./cdn/css_bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- end link css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="./cdn/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./Main-Page-Folder/images/logo.png">
+    <!--  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/CSSRulePlugin.min.js"></script>
+    <script src="https://kit.fontawesome.com/3f5e60a4f0.js" crossorigin="anonymous"></script>
+
+
+    <!-- Google Tag Manager -->
+  
+    <!-- End Google Tag Manager -->
+    <style>
+        
+        .nav-item a{
+            font-weight: bold;
+            font-size: 20px;
+            font-family: 'Cairo', sans-serif;
+            margin: 0px 10px;
+        }
+
+        .cardPage{
+            width: 100%;
+            height: 100%;
+            border: 2px solid black;
+            border-radius: 20px;
+        }
+
+        .cardPage h5{
+            font-weight: bold;
+        }
+
+        .CompanyName::before {
+            content: "HalanWasel to repair and maintain ovens";
+            position: relative;
+            bottom: -25px;
+            left: 280px;
+            font-family: "cairo",sans-serif;
+            font-weight: bold;
+            color: #397eaf;
+            font-size: 22px;
+        }
+
+
+        @media (max-width: 1220px) {
+            .CompanyName{
+                display: none;
+            }
+        }
+
+
+        #cardGif{
+            transition-duration: 1s;
+        }
+        #cardGif > .icon{
+            border-radius: 20px;
+        }
+
+        #cardGif:hover{
+            background: #272727;
+            color: white;
+        }
+
+        .friends > .cardPage{
+            border: 3px solid black;
+            transition-duration: 0.5s;
+        }
+
+        .friends > .cardPage:hover{
+            border: 3px solid #4baf39;
+        }
+
+
+    </style>
+    <!--  -->
+
+</head>
+<body>
+    
+    <!-- Stat nav -->
+    <div class="bg-white" style="position: fixed; z-index: 2; width: 100%; border-bottom: 1px solid rgba(128, 128, 128, 0.485);">
+        <div class="">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white font-weight-bold" style="font-family: sans-serif;">
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto" style="flex: auto; justify-content: start;">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">تواصل معنا</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ourServices">ماذا نقدم</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#who-are-we">من نحن</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="home-btn">الرئيسية</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="icons d-flex align-center">
+                    <p class="CompanyName" style="font-weight: bold; font-size: 20px; font-family: cairo,sans-serif; padding-right: 10px;"> حالا واصل لتصليح وصيانة الافران </p>
+                    <img src="./Main-Page-Folder/images/logo.png" style="width: 50px;" alt="" class="Nav-Logo">
+                </div>
+
+            </nav>
+        </div>
+    </div>
+    <!-- End nav -->
+
+    <div style="height: 60px;"></div>
+    <!-- start slider -->
+    <img style="width: 100%; margin-bottom: 20px; max-height: 800px;" src="./Main-Page-Folder/images/Banner.png" id="headerImg">
+    <!-- end slider -->
+
+    <!-- start section -->
+
+    <br  id="who-are-we">
+    <div class="container">
+        <center>
+            <h2 style="font-family: cairo,sans-serif; font-weight: bold;">من نحن</h2>
+            <hr style="background: #83bf00 none repeat scroll 0 0; width: 80px; height: 2px; border-radius: 20px;" class="wht">
+            <br>
+            <p style="max-width: 800px; font-size: 23px; font-family: cairo,sans-serif; font-weight: bold;">
+                <span style="font-size: 25px; color: #83bf00; font-family: cairo,sans-serif; font-weight: bold;">حالا واصل</span>
+
+                    هي شركة تختص في تقديم خدمات تنظيف وصيانة الأفران المنزلية والصناعية. يمكن للشركة تنظيف الأفران من الداخل والخارج وإزالة الأوساخ والشحوم والروائح الكريهة التي تتراكم من الاستخدام اليومي. كما يمكن للشركة أيضًا إجراء الصيانة اللازمة للأفران وإصلاح أي مشاكل تواجهها، مثل استبدال العناصر السخانة أو تصليح الأجزاء المكسورة. تهدف هذه الشركة إلى توفير خدمات عالية الجودة للعملاء وضمان أن تعمل الأفران بكفاءة وسلامة تامة.
+
+            </p>
+            
+        </center>
+
+        <center id="ourServices">
+            <h2 style="font-family: cairo,sans-serif; font-weight: bold; padding: 50px 0px 0px 0px">ماذا نقدم</h2>
+            <hr style="background: #83bf00 none repeat scroll 0 0; width: 80px; height: 2px; border-radius: 20px;" class="wht">
+            <!-- <h2 style="font-family: cairo,sans-serif; font-weight: bold; padding: 50px 0px 0px 0px">نظام الرؤيا الرقمية</h2> -->
+            <br>
+        </center>
+
+        <div class="grid" >
+
+            <div class="cardPage" id="cardGif">
+                <i style="font-size: 45px;" class="fa-solid fa-soap"></i>
+                <h5>
+                    تنظيف الافران
+                </h5>
+                <p style="font-weight: bold;">
+                    يقوم فريق العمل بتنظيف الأفران من الداخل والخارج بما في ذلك إزالة الأوساخ والشحوم والروائح الكريهة 
+                </p>
+            </div>
+
+            <div class=".grid cardPage" id="cardGif">
+                <i style="font-size: 45px;" class="fa-sharp fa-solid fa-screwdriver-wrench"></i>
+                <h5>
+                    صيانة الأفران
+                </h5>
+                <p style="font-weight: bold;">
+                    يتم فحص الأفران وإجراء الصيانة اللازمة للحفاظ على أدائها الأمثل، ويتم ذلك بفحص العناصر السخانة والشبكات والأجزاء الأخرى لضمان أنها تعمل بكفاءة.
+                </p>
+            </div>
+
+            <div class=".grid cardPage" id="cardGif">
+                <i style="font-size: 45px;" class="fa-sharp fa-solid fa-screwdriver"></i>
+                <h5>
+                    إصلاح الأفران
+                </h5>
+                <p style="font-weight: bold;">
+                    يتم إصلاح الأفران التالفة أو المعطلة، ويشمل ذلك استبدال العناصر السخانة أو إصلاح الأجزاء المكسورة أو الضعيفة.
+                </p>
+            </div>
+
+
+            <div class=".grid cardPage" id="cardGif">
+                <i style="font-size: 45px;" class="fa-solid fa-taxi"></i>
+                <h5>
+                    خدمات الصيانة الدورية
+                </h5>
+                <p style="font-weight: bold;">
+                    تهدف هذه الخدمات إلى الحفاظ على أداء الأفران بشكل مستمر والتأكد من سلامتها وعدم تعرض المستخدمين لأي مخاطر.                </p>
+            </div>
+
+            <div class=".grid cardPage" id="cardGif">
+                <i style="font-size: 45px;" class="fa-solid fa-comment-medical"></i>
+                <h5>
+                    تقديم النصائح والإرشادات
+                </h5>
+                <p style="font-weight: bold;">
+                    مكن للشركة تقديم النصائح والإرشادات للعملاء حول كيفية الحفاظ على الأفران وتجنب المشاكل المحتملة في المستقبل.                </p>
+            </div>
+
+            <div class=".grid cardPage" id="cardGif">
+                <i style="font-size: 45px;" class="fa-solid fa-ethernet"></i>
+                <h5>
+                    تركيب الأفران
+                </h5>
+                <p style="font-weight: bold;">
+                    تقوم الشركة بتركيب الأفران الجديدة وضمان أنها تعمل بشكل صحيح.
+                </p>
+            </div>
+
+        </div>
+
+        <br><br>
+
+    </div>
+    <!-- end section -->
+    <br><br>
+    <!-- start section -->
+    <div class="container twoDivs" >
+
+
+        <div class="col-md-6 twoDivImgDad" style=" display: flex;">
+            <img src="./Main-Page-Folder/images/1.webp" alt="img" class="twoDivImg div-center" style="border-radius: 20px;">
+        </div>
+
+
+
+        <div class="col-md-6" style="text-align: end;">
+            <h2>الخدمات المتاحة  <span style="color: var(--main-color); font-weight: bold;">لدينا</span></h2>
+            
+            <b style="color: rgba(0, 0, 0, 0.594); font-size: 20px;">
+                :لدينا مجموعة كبيرة من <span style="color: var(--main-color);"> الخدمات </span>
+            </b>
+            <br>
+            <br>
+            <ul style="color:#000; font-weight: 600; font-family: cairo, sans-serif;" class="row">
+
+                <div class="col-md-6">
+                    <li>  صيانة افران الغاز </li>
+                    <li> صيانة افران كهربائية </li>
+                    <li> صيانة افران البا </li>
+                    
+                </div>
+                
+                <div class="col-md-6">
+                    <li> قطع غيار اصلية </li>
+                    <li> خدمة تنظيف افران البوتجاز</li>
+                    <li>تنظيف وصيانة أفران الشواء والشوايات</li>
+                    <li> تنظيف وصيانة الأفران المدمجة </li>
+                    <li> تنظيف وصيانة الأفران التجارية </li>
+                    <li> تنظيف وصيانة الأفران الفرنسية </li>
+                </div>
+
+            </ul>
+        </div>
+        
+       
+
+    </div>
+    <!-- end section -->
+
+    <br><br><br><br>
+
+    <!-- start section -->
+    <div class="row" style="width: 100%;background: #eee none repeat scroll 0 0;">
+        <div class="col-md-6" style="background-image: url(./Main-Page-Folder/images/2.webp); background-size: cover; min-height: 300px;"></div>
+
+        <div class="col-md-6" style="padding: 50px 50px; background: #eee none repeat scroll 0 0; text-align: end;" >
+
+            <h1 style="color: black;">حقق أعلى استفادة</h1>
+            <br>
+            <b style="font-size: 25px;max-width: 300px!important; font-weight: 600; font-family: cairo,sans-serif;">
+                إذا كنت ترغب في الحصول على خدمات تنظيف وصيانة الأفران عالية الجودة، فنحن نقدم خدمات شاملة لتلبية احتياجاتك. اتصل بنا الآن للحصول على خدمة محترفة وفعالة لتنظيف وصيانة الأفران.
+            </b>
+            <br><br>
+            <a href="https://wa.me/966533927365">
+                <button type="button" class="btn btn-secondary">تواصل معنا</button>
+            </a>
+        </div>
+    </div>
+    <!-- end section -->
+
+
+    <!-- start section -->
+    
+    <div style="background: white;">
+        <div class="container">
+            <center>
+                <h2 style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: bold; padding: 50px 0px 0px 0px">الثقة والاحترافية</h2>
+                <hr style="background: #83bf00 none repeat scroll 0 0; width: 80px; height: 2px; border-radius: 20px;" class="wht">
+                <br>  
+            </center>
+            <br>
+
+            <div class="grid friends">
+                <div class="cardPage" style="padding: 10px!important;">
+                    <img src="./Main-Page-Folder/images/6.jpg" alt="img" class="icon" style=" width: 100%; min-height: 100px;">
+                </div>
+    
+                <div class="cardPage" style="padding: 10px!important;">
+                    <img src="./Main-Page-Folder/images/2.webp" alt="img" class="icon" style="width: 100%; min-height: 100px;">
+                </div>
+    
+                <div class="cardPage" style="padding: 10px!important;">
+                    <img src="./Main-Page-Folder/images/3.jpg" alt="img" class="icon" style="width: 100%; min-height: 100px;">
+                </div>
+    
+                <div class="cardPage" style="padding: 10px!important;">
+                    <img src="./Main-Page-Folder/images/4.jpg" alt="img" class="icon" style="width: 100%; min-height: 100px;">
+                </div>
+    
+                <div class="cardPage" style="padding: 10px!important;">
+                    <img src="./Main-Page-Folder/images/7.jpg"alt="img" class="icon" style="width: 100%; min-height: 100px;">
+                </div>
+    
+                <div class="cardPage" style="padding: 10px!important;">
+                    <img src="./Main-Page-Folder/images/8.jpg" alt="img" class="icon" style="width: 100%; min-height: 100px;">
+                </div>
+    
+            </div>
+    
+        </div>
+        <br><br>
+    </div>
+    
+    <!-- end section -->
+ 
+
+    <!-- Start Section -->
+    <div style="background: white;">
+        <div class="container">
+            <center>
+                <h2 style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: bold; padding: 50px 0px 0px 0px">لماذا نحن؟</h2>
+                <hr style="background: #83bf00 none repeat scroll 0 0; width: 80px; height: 2px; border-radius: 20px;" class="wht">
+                <br>  
+            </center>
+            <br>
+
+            <div class="row">
+                <div class=".grid cardPage col-sm-6 col-md-6 col-lg-4" style="border: none !important;">
+                    <img src="./Main-Page-Folder/images/speedometer.gif" alt="img" class="icon" style="width: 100px; height: 100px; border-radius: 20px;">
+                    <br>
+                    <h2 style="color: black;">السرعة</h2>
+                    <!-- <h1> ٣٠
+                        دقيقة
+                    </h1> -->
+                </div>
+                <div class=".grid cardPage col-sm-6 col-md-6 col-lg-4" style="border: none !important;">
+                    <img src="./Main-Page-Folder/images/tech-support.gif" alt="img" class="icon" style="width: 100px; height: 100px; border-radius: 20px;">
+                    <br>
+                    <h2 style="color: black;"> افضل تعامل </h2>
+                    <!-- <h1>15</h1> -->
+                </div>
+                <div class=".grid cardPage col-sm-6 col-md-6 col-lg-4" style="border: none !important;">
+                    <img src="./Main-Page-Folder/images/social-media.gif" alt="img" class="icon" style="width: 100px; height: 100px; border-radius: 20px;">
+                    <br>
+                    <h2 style="color: black;">اقل تكلفة</h2>
+                    <!-- <h1>1142</h1> -->
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </div>
+    <!-- End Section -->
+
+    <!-- start footer -->
+    <div class="footer bg-dark text-light" id="contact" style="background: url(./Main-Page-Folder/images/footer-bg.webp); background-size: cover;">
+        <div class="container">
+          <div class="box">
+            <h3>Halan Wasel</h3>
+            <ul class="social" style="text-decoration: none;">
+              <li>
+                <a href="https://wa.me/966533927365" class="facebook">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/966533927365" class="whatsapp">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/966533927365" class="telegram">
+                  <i class="fab fa-telegram"></i>
+                </a>
+              </li>
+            </ul>
+
+          </div>
+          <div class="box">
+            <ul class="links">
+              <li><a href="https://wa.me/966533927365">Halan Wasel group</a></li>
+              <li><a href="https://wa.me/966533927365">Halan Wasel Company</a></li>
+              <li><a href="https://wa.me/966533927365">Halan Wasel Location</a></li>
+            </ul>
+          </div>
+          <div class="box">
+            <div class="line">
+              <i class="fas fa-map-marker-alt fa-fw"></i>
+              <div class="info">Saudi Arabia, Jeddah</div>
+            </div>
+            <div class="line">
+              <i class="far fa-clock fa-fw"></i>
+              <div class="info">Business Hours: 24/7</div>
+            </div>
+            <div class="line">
+              <i class="fas fa-phone-volume fa-fw"></i>
+              <div class="info">
+                <span>+966533927365</span>
+              </div>
+            </div>
+            <!-- <div class="line">
+                <i class="fa-solid fa-envelope fa-fw"></i>
+                <div class="info">
+                  <span>info@royaarakamya.com</span>
+                </div>
+            </div> -->
+          </div>
+
+        </div>
+        <p class="copyright">
+            جميع الحقوق محفوظة لشركة 
+            الرؤيا الرقمية لتقنية المعلومات
+        </p>
+    </div>
+    <!-- send footer -->
+
+
+    
+</body>
+<!-- start link js -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="./cdn/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="./cdn/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<!-- end link js -->
+
+<!--  -->
+<script src="./Main-Page-Folder/main.js"></script>
+<script>
+
+</script>
+<!--  -->
+
+</html>
