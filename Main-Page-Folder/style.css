@@ -11,10 +11,16 @@ html{
 
 body{
   overflow-x: hidden; /* Hide horizontal scrollbar */
+  font-family: cairo,sans-serif !important;
 }
 
 @media (max-width: 768px){
     .Nav-Logo{width: 10rem;};
+
+
+    
+
+
 };
 
 
@@ -106,6 +112,20 @@ body{
         margin: 10px auto;
         text-align: center;
     }
+
+    body > div.row > div:nth-child(2){
+      padding: 50px 25px;
+    }
+
+    body > div.row > div:nth-child(2) > h1{
+      font-size: 2rem !important;
+    }
+
+    body > div.row > div:nth-child(2) > b{
+      font-size: 1.5rem !important;
+      text-align: center !important;
+    }
+
   }
 
   @media (min-width: 1000px) {
