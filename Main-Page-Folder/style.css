@@ -236,7 +236,7 @@ body > div:nth-child(5) > center:nth-child(1) > p{
   }
 
   #headerImg{
-    content: url("./images/Banner.png");
+    content: url("./images/Banner.jpg");
   }
 
   body > div:nth-child(5) > center:nth-child(1) > h2{
